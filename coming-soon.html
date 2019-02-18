@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <title>Client Name</title>
+  <meta charset="utf-8">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --body-color: #ffffff;
+      --primary-1: #f1860a;
+      --primary-2: #4d4d4d;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      color: var(--body-color);
+      background-color: var(--primary-2)
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: currentColor;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mx-auto py-4 md:py-8 px-4 md:px-0">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-center w-full mb-10">
+      <img class="max-w-sm" src="https://www.bigrigmedia.com/app/themes/sage/dist/images/big-rig-media.png" />
+    </div>
+    <div class="flex flex-col md:flex-row md:justify-between">
+      <div class="w-full md:w-1/2 pb-10 md:pb-0 md:px-10">
+        <h1 class="text-4xl leading-normal">New Website Coming Soon!</h1>
+        <h3 class="text-xl leading-normal">Client Name</h3>
+        <br>
+        <p class="mb-5 text-lg leading-normal">Client Description</p>
+        <p class="text-lg leading-normal">
+          <a class="no-underline" href="mailto:client@domain.com">Client Email</a>
+          <br>
+          <a class="no-underline" href="tel:0000000000">Client Phone</a>
+        </p>
+      </div>
+      <div class="w-full md:w-1/2 md:px-10">
+        <img class="border-4 border-white"
+          src="https://www.bigrigmedia.com/app/themes/sage/dist/images/big-rig-media.png" />
+      </div>
+    </div>
+    <div class="flex flex-col md:flew-row md:items-center md:justify-center mt-10 text-center">
+      <p class="text-sm leading-normal">&copy; 2019 Client Name</p>
+    </div>
+  </div>
+</body>
+
+</html>
